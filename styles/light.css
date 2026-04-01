@@ -47,4 +47,27 @@
     --text-color: #353430;
     --border-opacity-hover: rgba(50, 49, 45, 0.4);
   }
+  .decorative__corners::before,
+  .decorative__corners::after {
+    border-color: var(--text-color);
+  }
+
+  .header__type-dark-lamp {
+    display: none;
+  }
+
+  .title-decor,
+  .main__title,
+  .section__title,
+  .header__theme-menu-button {
+    color: var(--text-color);
+  }
+
+  .header__theme-menu-button_active {
+    border-color: var(--text-color);
+  }
+
+  .header__theme-menu-button:focus-visible {
+    border-bottom: 1px solid var(--text-color);
+  }
 }

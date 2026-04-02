@@ -193,6 +193,9 @@
 
 .section__gallery-title {
   margin-bottom: 11px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 130%;
 }
 
 .section__gallery {
